@@ -5,3 +5,7 @@ cat inputs/$1.in
 
 echo "************ OUTPUT ***********"
 g++ $1 && ./a.out < inputs/$1.in
+
+# Clean up
+rm -f ./a.out
+
