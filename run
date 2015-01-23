@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "************ INPUT ************"
+cat inputs/in.$1
+
+echo "************ OUTPUT ***********"
+g++ $1 && ./a.out < inputs/in.$1
